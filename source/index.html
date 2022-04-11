@@ -1,12 +1,48 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Погнали</title>
-  </head>
-  <body>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS. Адаптивная вёрстка и автоматизация</a>».</p>
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Погнали</title>
+</head>
 
-  </body>
+<body>
+  <header class="main-header">
+    <a class="main-header__logo">
+      <img src="img/lobo_mobile.svg" width="226" height="30" alt="Погнали">
+    </a>
+    <nav class="main-nav">
+      <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
+      <div class="main-nav__wrapper">
+        <ul class="main-nav__list site-list">
+          <li class="site-list__item site-list__item--active">
+            <a>
+              О сервисе
+            </a>
+          </li>
+          <li class="site-list__item">
+            <a href="photo.html">
+              Направления
+            </a>
+          </li>
+          <li class="site-list__item">
+            <a href="form.html">
+              Попутчитки
+            </a>
+          </li>
+        </ul>
+        <div class="main-nav__list user-list">
+          <p><img src="img/contacts_icon_telephone.svg" width="45" height="45">8 800 555-86-28</p>
+          <p><img src="img/contacts_icon_mail.svg" width="45" height="45">mail@htmlacademy.ru</p>
+          <button class="user-list__login" type="button">
+            <a href="login.html">
+              Авторизация
+            </a>
+          </button>
+        </div>
+      </div>
+    </nav>
+  </header>
+</body>
+
 </html>
