@@ -1,0 +1,19 @@
+.location {
+  background-color: $accent-yellow;
+  color: $dark-blue;
+  padding: 35px 0;
+  position: relative;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  z-index: 1;
+
+  &--upped {
+    margin-top: -30px;
+    padding-top: 64px;
+  }
+}
+
+.location__address {
+  margin-bottom: 31px;
+}
+

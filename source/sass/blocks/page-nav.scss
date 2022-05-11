@@ -1,0 +1,41 @@
+.page-nav {
+  width: 100%;
+  height: 568px;
+  text-align: center;
+  background-color: $white;
+  color: $dark-blue;
+  padding-top: 17px;
+  padding-bottom: 14px;
+}
+
+.page-nav__menu-wrapper {
+  padding-top: 61px;
+  padding-bottom: 53px;
+}
+
+.page-nav__list {
+  list-style: none;
+  padding-left: 0;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.page-nav__list-link {
+  color: $dark-blue;
+}
+
+
+.page-nav__contacts-wrapper {
+  padding-top: 54px;
+}
+
+.page-nav__contacts {
+  margin-bottom: 40px;
+}
+
+.page-nav__social {
+  padding-bottom: 27px;
+}
+
