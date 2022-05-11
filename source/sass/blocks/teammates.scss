@@ -1,0 +1,24 @@
+.teammates {
+  background-color: $dark-blue;
+  color: $white;
+  padding: 29px 0;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+
+  &--upped {
+    margin-top: -30px;
+  }
+}
+
+.teammates__content-wrapper {
+  padding: 0 25px;
+  margin-bottom: 57px;
+}
+
+.teammates__preview-wrapper {
+  margin-bottom: 20px;
+}
+
+.teammates__item {
+  margin-bottom: 10px;
+}

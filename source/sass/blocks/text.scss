@@ -1,0 +1,14 @@
+.text {
+  font-weight: 300;
+  line-height: 1.38;
+  margin-bottom: 21px;
+  color: inherit;
+
+  &--bold {
+    font-weight: bold;
+  }
+
+  &--white {
+    color: $white;
+  }
+}

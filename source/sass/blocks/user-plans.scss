@@ -1,0 +1,24 @@
+.user-plans {
+  background-color: $violet;
+  padding: 28px 0;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+}
+
+.user-plans__heading-wrapper {
+  margin-bottom: 26px;
+}
+
+.user-plans__list {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 18px;
+}
+
+.user-plans__item {
+  margin-bottom: 10px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}

@@ -1,0 +1,35 @@
+.user-information {
+  padding-top: 23px;
+}
+
+.user-information__wrapper {
+  margin-bottom: 22px;
+  position: relative;
+  border-radius: 10px;
+  border: 1px solid #cbced9;
+}
+
+.user-information__image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.user-information__level-number {
+  font-size: 38px;
+  font-weight: bold;
+  line-height: 1;
+  color: $deep-dark-blue;
+  position: relative;
+}
+
+.user-information__title {
+  margin: 0;
+  padding: 0 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: $twilight-blue;
+  line-height: 1.13;
+  text-align: center;
+}

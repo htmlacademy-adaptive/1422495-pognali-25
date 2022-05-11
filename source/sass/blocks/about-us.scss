@@ -1,0 +1,13 @@
+.about-us {
+  background: $dark-blue url("../../img/about-mobile.png") no-repeat center;
+  color: $white;
+  padding: 32px 0 60px 0;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.about-us__content-wrapper {
+  padding: 0 25px;
+  padding-right: 25px;
+  max-width: 260px;
+}

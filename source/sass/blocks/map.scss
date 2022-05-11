@@ -1,0 +1,25 @@
+.map {
+  background-color: $dark-blue;
+  height: 332px;
+  position: relative;
+
+  &--upped {
+    margin-top: -30px;
+  }
+}
+
+.map__bg-wrapper {
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  max-height: 424px;
+}
+
+.map__bg-picture {
+  display: block;
+  width: 100%;
+  height: auto;
+}

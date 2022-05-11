@@ -1,0 +1,21 @@
+.plan-step {
+  background-color: $white;
+  padding: 24px 24px 21px;
+  border-radius: 10px;
+}
+
+.plan-step__title {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1;
+  color: $twilight-blue;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.plan-step__description {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: normal;
+  line-height: 1.38;
+}

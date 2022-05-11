@@ -1,0 +1,29 @@
+.heading {
+  margin-top: 0;
+
+  &--h1 {
+    color: $white;
+    font-size: 36px;
+    line-height: 1.11;
+  }
+
+  &--h2 {
+    color: $orange;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+
+  &--centered {
+    text-align: center;
+  }
+
+  &--underline {
+    padding-bottom: 10px;
+    margin-bottom: 0;
+  }
+
+  &--blue {
+    color: $twilight-blue;
+  }
+}

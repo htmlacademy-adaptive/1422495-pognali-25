@@ -1,0 +1,48 @@
+.business-popup {
+  padding-top: 33px;
+  margin: 0 auto;
+  background-color: $white;
+  width: 270px;
+  border-radius: 20px;
+}
+
+.business-popup__heading {
+  text-align: center;
+  margin-bottom: 26px;
+}
+
+.business-popup__list {
+  list-style: none;
+  padding: 0 25px;
+  margin-top: 0;
+  margin-bottom: 33px;
+}
+
+.business-popup__item {
+  padding: 12px 0 9px 0;
+  border-bottom: 1px solid rgba($black, 0.05);
+
+  &:first-child {
+    border-top: 1px solid rgba($black, 0.05);
+  }
+
+  &:last-child {
+    border-bottom: 1px solid rgba($black, 0.05);
+  }
+}
+
+.business-popup__service {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.38;
+  margin: 0;
+  color: $greyish-brown;
+}
+
+.business-popup__price {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.38;
+  margin: 0;
+  color: $greyish-brown;
+}

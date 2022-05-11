@@ -1,0 +1,22 @@
+.page-header {
+  background-color: $deep-dark-blue;
+  color: $white;
+  position: relative;
+
+  &--main {
+    min-height: 225px;
+  }
+
+  &--rounded {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+}
+
+.page-header__title-wrapper {
+  padding: 0 10px;
+
+  &--main {
+    margin-bottom: 247px;
+  }
+}

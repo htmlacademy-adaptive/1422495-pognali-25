@@ -1,0 +1,24 @@
+.social-link {
+  display: block;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  &--fb {
+    width: 11px;
+    height: 21px;
+    background-image: url("../../img/facebook.svg");
+  }
+
+  &--vk {
+    width: 23px;
+    height: 12px;
+    background-image: url("../../img/vkontakte.svg");
+  }
+
+  &--instagram {
+    width: 18px;
+    height: 18px;
+    background-image: url("../../img/instagram.svg");
+  }
+}
